@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+
+        <link rel="stylesheet" href="dist/main.css">
+    </head>
+    <body class="font-body bg-slate-100">
+        <main class="flex justify-center items-center h-screen">
+            <div class="bg-[#1A1A1A] w-[375px]">
+                <div class="pt-8 pb-4 in-shadow">
+                    <ul class="flex text-[14px] justify-center text-[#CDCDCD]">
+                        <li class="mr-[18px]"><a class="text-[#F63356] border-[#F63356] pb-1 border-b-2" href="">Calculator</a></li>
+                        <li class="mr-[18px]"><a href="">Exchange Rate</a></li>
+                        <li><a href="">Unit Converter</a></li>
+                    </ul>
+    
+                    <div class="flex flex-col justify-between place-items-end mx-auto mt-4 p-4 text-[#747474] w-[325px] h-[173px] in-shadow">
+                        <p class="text-[32px]">12345679 x 9</p>
+    
+                        <div class="flex">
+                            <p class="text-4xl flex flex-grow justify-between">
+                                <span class="text-[16px]">Ans =</span>
+                                <span class="text-4xl text-[#E5E5E5]">1,11,11,111,111</span>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="flex justify-between px-6 mt-4">
+                        <div class="w-[48px] h-[48px] rounded-full out-shadow">
+                            <svg class="w-6 h-6 my-3 mx-auto text-[#CDCDCD]" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+    
+                        <button class="text-[#CDCDCD] w-[66px] h-[50px] rounded-md out-shadow">DEG</button>
+                    </div>
+                </div><!-- display -->
+
+                <div class="grid grid-cols-4 gap-4 items-stretch text-[#747474] text-3xl py-6 px-6">
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow ">c</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">%</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="m-auto h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z" />
+                        </svg>
+                    </button>
+                    <button class="text-[#F63356] w-[60px] h-[60px] rounded-full out-shadow">/</button>
+                    
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">9</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">8</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">7</button>
+                    <button class="text-[#F63356] w-[60px] h-[60px] rounded-full out-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="m-auto h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                    
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">6</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">5</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">4</button>
+                    <button class="text-[#F63356] w-[60px] h-[60px] rounded-full out-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="m-auto h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
+                        </svg>
+                    </button>
+                    
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">3</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">2</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">1</button>
+                    <button class="text-[#F63356] w-[60px] h-[60px] rounded-full out-shadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="m-auto h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                          </svg>
+                    </button>
+                    
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">00</button>
+                    <button class="w-[60px] h-[60px] rounded-full out-shadow">0</button>
+                    <button class="w-[60px] h-[60px] pb-4 rounded-full out-shadow">.</button>
+                    <button class="text-[#F63356] w-[60px] h-[60px] rounded-full out-shadow">=</button>
+                </div><!-- input -->
+
+            </div>
+        </main>
+    </body>
+</html>

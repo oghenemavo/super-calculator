@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.in-shadow {
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.25), inset -10px -10px 20px #202020;
+}
+
+.out-shadow {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), -10px -10px 20px #202020;
+}
